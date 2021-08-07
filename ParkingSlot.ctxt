@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ParkingSlot
+comment0.text=\r\n\ There\ are\ two\ types\ of\ parking\ slots\:\ slots\ only\ for\ visitors\ and\ slots\ only\ for\ staff\ members.\ A\r\nparking\ slot\ must\ have\ an\ identifier,\ which\ starts\ with\ a\ capital\ letter\ followed\ by\ a\ three-digit\r\nnumber\ e.g.\ \u201CS001\u201D,\ \u201CV127\u201D.\ A\ parking\ slot\ also\ should\ know\ if\ a\ car\ and\ what\ car\ is\ parked\r\nin\ the\ slot.\ You\ must\ be\ able\ to\ add\ a\ car\ to\ the\ slot\ and\ remove\ a\ car\ from\ the\ slot.\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\r\n\r\n\ @author\ Quinn\ Chan\ 103053395\r\n\ @version\ JDK\ 14.0.2\ -\ 13/09/2020\r\n
+comment1.params=newIdentifier\ newType
+comment1.target=ParkingSlot(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ParkingSlot\r\n
+comment2.params=
+comment2.target=java.lang.String\ getSlotID()
+comment2.text=\r\n\ getter\ method\ of\ slot\ identifier\r\n\r\n\ @param\ \ nil\r\n\ @return\ \ \ \ identifier-slot\ ID(string)\r\n
+comment3.params=
+comment3.target=java.lang.String\ getSlotAvail()
+comment3.text=\r\n\ getter\ method\ of\ slot\ availability\r\n\r\n\ @param\ \ nil\r\n\ @return\ \ \ \ availability-slot\ availability(string)\r\n
+comment4.params=
+comment4.target=java.lang.String\ getSlotType()
+comment4.text=\r\n\ getter\ method\ of\ slot\ type\r\n\r\n\ @param\ \ nil\r\n\ @return\ \ \ \ type\ -slot\ type\ staff\ or\ visitor(string)\r\n
+comment5.params=
+comment5.target=Car\ getSlotCar()
+comment5.text=\r\n\ getter\ method\ of\ slot\ car\r\n\r\n\ @param\ \ nil\r\n\ @return\ \ \ \ parkedCar-the\ car\ object\ parked\ in\ the\ slot\r\n
+comment6.params=newParkedCar
+comment6.target=void\ setParkedCar(Car)
+comment6.text=\r\n\ setter\ method\ of\ the\ car\ parked\ in\ the\ slot\r\n\r\n\ @param\ \ newParkedCar\ car\ object\r\n\ @return\ \ \ \ nil\r\n
+comment7.params=
+comment7.target=void\ delParkedCar()
+comment7.text=\r\n\ remove\ the\ car\ parked\ in\ the\ slot\r\n\r\n\ @param\ \ nil\r\n\ @return\ \ \ nil\ \r\n
+numComments=8

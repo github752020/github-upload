@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Car
+comment0.text=\r\n\ A\ car\ will\ be\ identified\ by\ its\ registration\ number.\ A\ registration\ number\ always\ starts\ with\ a\r\ncapital\ letter,\ followed\ by\ a\ five-digit\ number\ e.g.\ \u201CT12345\u201D.\ A\ car\ should\ have\ an\ owner\ and\r\nknows\ if\ the\ owner\ is\ a\ staff\ member.\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\r\n\r\n\ @author\ Quinn\ Chan\ 103053395\r\n\ @version\ JDK\ 14.0.2\ -\ 13/09/2020\r\n
+comment1.params=newRegNum\ newOwner\ newIsStaff
+comment1.target=Car(java.lang.String,\ java.lang.String,\ char)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Car\r\n
+comment2.params=
+comment2.target=java.lang.String\ getRegNum()
+comment2.text=\r\n\ getter\ method\ of\ car\ registration\ number\r\n\r\n\ @param\ \ nil\r\n\ @return\ \ \ \ regNum-registration\ number(string)\r\n
+comment3.params=
+comment3.target=java.lang.String\ getOwner()
+comment3.text=\r\n\ getter\ method\ of\ car\ owner\r\n\r\n\ @param\ \ nil\r\n\ @return\ \ \ \ owner-owner's\ name(string)\r\n
+comment4.params=
+comment4.target=char\ getIsStaff()
+comment4.text=\r\n\ getter\ method\ of\ car\ isStaff\r\n\r\n\ @param\ \ nil\r\n\ @return\ \ \ \ isStaff-Y\ means\ staff's\ car,\ N\ means\ visitor's\ car(char)\r\n
+numComments=5
